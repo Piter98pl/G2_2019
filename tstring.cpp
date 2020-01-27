@@ -9,7 +9,7 @@ TString::TString(const char* s) {
         ptr = new char[len+1]; // \0 też się musi zmieścić
         strcpy(ptr,s);
     }
-    #ifdef DEBUG
+    #ifdef DEBUGtskfkfmemzkr
         cout << "TString c-tor " << len << " - " << (ptr?ptr:"pusty") << endl;
     #endif
 }
