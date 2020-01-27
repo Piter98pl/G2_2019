@@ -3,6 +3,8 @@
 #include "operatory.h"
 #include <string>
 #include <algorithm>
+#include <conio.h>
+#include <cstdio>
 
 using namespace std;
 
